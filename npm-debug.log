@@ -1,0 +1,25 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', '-g', 'remove', 'webserver' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose lib/node_modules/webserver unbuild
+5 info preuninstall webserver@1.1.2
+6 info uninstall webserver@1.1.2
+7 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild webserver@1.1.2
+8 info postuninstall webserver@1.1.2
+9 error Error: EACCES, unlink '/usr/local/lib/node_modules/webserver'
+9 error  { [Error: EACCES, unlink '/usr/local/lib/node_modules/webserver']
+9 error   errno: 3,
+9 error   code: 'EACCES',
+9 error   path: '/usr/local/lib/node_modules/webserver' }
+10 error Please try running this command again as root/Administrator.
+11 error System Darwin 13.4.0
+12 error command "node" "/usr/local/bin/npm" "-g" "remove" "webserver"
+13 error cwd /Users/baidu/myworkspace/git/engine
+14 error node -v v0.10.35
+15 error npm -v 1.4.28
+16 error path /usr/local/lib/node_modules/webserver
+17 error code EACCES
+18 error errno 3
+19 error stack Error: EACCES, unlink '/usr/local/lib/node_modules/webserver'
+20 verbose exit [ 3, true ]
